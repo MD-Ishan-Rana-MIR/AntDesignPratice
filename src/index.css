@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ant-layout-sider-children{
+  background-color: white !important;
+}
+
+
+.ant-menu-title-content:hover{
+    /* background-color: red !important; */
+}
+
+
+.ant-menu-item{
+    color: rgb(160, 25, 25) !important;
+}
+
+.ant-menu-item:hover{
+  color: rgb(255, 111, 111)!important;
+  background-color: rgba(7, 228, 18, 0.5)!important;
+}
+
+
+
+.ant-layout-sider-trigger{
+  background-color: rgb(75, 206, 36);
+}
+
+.ant-layout-sider-trigger{
+  color: white;
+  background-color: green !important;
+}
