@@ -36,3 +36,48 @@ body{
   color: white;
   background-color: green !important;
 }
+
+.ant-menu-item-selected {
+  background-color: red !important;
+  color: white !important;
+}
+
+
+/* button css  */
+
+.ant-btn{
+  background-color: rgb(75, 206, 36);
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none !important;
+}
+
+.ant-btn:hover{
+  background-color: rgb(75, 206, 36)!important;
+  color: white !important;
+  border: none;
+}
+
+
+.ant-btn-variant-dashed:hover{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  top: 0;
+}
+
+.ant-btn-variant-link{
+  background-color: red;
+}
+
+.ant-btn-variant-link:hover{
+  background-color: red !important ;
+  color: black !important ;
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  border: none;
+}
