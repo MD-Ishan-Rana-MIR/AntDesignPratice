@@ -19,11 +19,10 @@ const items = [
   getItem("Button", "sub1", <PieChartOutlined />,[
     getItem(<Link to="/button">Button </Link>, "1" , <PieChartOutlined /> )
   ]),
-  getItem("User", "sub1", <UserOutlined />, [
-    getItem(<Link to="/user/tom">Tom</Link>, "3"),
-    getItem(<Link to="/user/bill">Bill</Link>, "4"),
-    getItem(<Link to="/user/alex">Alex</Link>, "5"),
-  ]),
+  getItem("Typography", "sub2", <PieChartOutlined />,[
+    getItem(<Link to="/typography">Typography </Link>, "2" , <PieChartOutlined /> )
+  ],),
+ 
   
 ];
 

@@ -81,3 +81,21 @@ body{
   transition-delay: 0s;
   border: none;
 }
+
+
+/* typhography css  */
+
+.ant-typography{
+  /* font-size: 120px !important; */
+  margin-bottom: 20px;
+}
+
+.strongTag{
+  display: block;
+  margin-top: 30px!important;
+}
+
+.secondaryTag{
+  color:aqua !important ;
+  font-weight: bolder;
+}
