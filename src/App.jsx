@@ -22,6 +22,9 @@ const items = [
   getItem("Typography", "sub2", <PieChartOutlined />,[
     getItem(<Link to="/typography">Typography </Link>, "2" , <PieChartOutlined /> )
   ],),
+  getItem("Divider", "sub3", <PieChartOutlined />,[
+    getItem(<Link to="/divider">Divider </Link>, "3" , <PieChartOutlined /> )
+  ])
  
   
 ];
